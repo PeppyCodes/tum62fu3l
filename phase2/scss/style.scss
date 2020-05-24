@@ -6,6 +6,8 @@ $font-secondary: 'Indie Flower', cursive;
 
 $white: #fff;
 $black: #404044;
+$footer: #3B5306/*#27272b*/;
+$menu-color: #679002;
 
 
 @mixin border-radius($radius) {
@@ -149,7 +151,7 @@ h1, h2, h3, h4, h5,
 		left: 0;
 		top: 0;
 		margin-top: -130px;
-		background: $black!important;
+		background: $menu-color!important;
 		box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
 		.nav-item {
 			&.active {
@@ -1043,7 +1045,7 @@ textarea.form-control {
 
 .ftco-footer {
 	font-size: 16px;
-	background: #27272b;
+	background: $footer;
 	padding: 8em 0;
 	.ftco-footer-logo {
 		text-transform: uppercase;
