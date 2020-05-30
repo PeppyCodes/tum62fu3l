@@ -8664,7 +8664,7 @@ h1, h2, h3, h4, h5,
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #679002 !important;
+  background: #404044 !important;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 .ftco-navbar-light.scrolled .nav-item.active > a {
@@ -9515,7 +9515,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #3B5306;
+  background: #27272b;
   padding: 8em 0;
 }
 .ftco-footer .ftco-footer-logo {
