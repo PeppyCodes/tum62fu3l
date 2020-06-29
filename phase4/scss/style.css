@@ -10251,11 +10251,11 @@ textarea.form-control {
 }
 .block-3 .text, .block-3 .image {
   width: 100%;
-  padding: 7%;
+  padding: 30%;
 }
 @media (min-width: 768px) {
   .block-3 .text, .block-3 .image {
-    width: 50%;
+    width: 100%;
     padding: 7%;
   }
 }

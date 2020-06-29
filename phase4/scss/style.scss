@@ -2175,9 +2175,9 @@ textarea.form-control {
 .block-3 {
   .text, .image {
     width: 100%;
-    padding: 7%;
+    padding: 30%;
     @include media-breakpoint-up(md) {
-      width: 50%;
+      width: 100%;
       padding: 7%;
     }
   }
