@@ -2175,12 +2175,14 @@ textarea.form-control {
 .block-3 {
   .text, .image {
     width: 100%;
-    padding: 30%;
+    padding: 7%;
     @include media-breakpoint-up(md) {
       width: 100%;
       padding: 7%;
     }
   }
+
+
 
   .text {
     background: $white;
