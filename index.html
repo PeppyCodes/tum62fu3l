@@ -1,125 +1,718 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Tummy Fuel | Coming Soon</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+<head id="site_info">
+    <title>{{website_title}} | {{website_subtitle}}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+
 </head>
 <body>
-	
-	
-	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1">
-		<span></span>
-		<div class="flex-col-c p-t-50 p-b-50">
-			<h3 class="l1-txt1 txt-center p-b-10">
-				Tummy Fuel
-			</h3>
 
-			<p class="txt-center l1-txt2 p-b-60">
-				Our website is under construction
-			</p>
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+        <a class="" href="index.html"><img src="images/logo-text-man.png" alt="" height="100 rem"></a>
+        <!--<a class="navbar-brand" href="index.html">Tummy Fuel</a>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
 
-			<div class="flex-w flex-c cd100 p-b-82">
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 days">35</span>
-					<span class="s1-txt1">Days</span>
-				</div>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+                <!--            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>-->
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="#testimonial" class="nav-link">Testimonial</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- END nav -->
 
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 hours">17</span>
-					<span class="s1-txt1">Hours</span>
-				</div>
-
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 minutes">50</span>
-					<span class="s1-txt1">Minutes</span>
-				</div>
-
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 seconds">39</span>
-					<span class="s1-txt1">Seconds</span>
-				</div>
-			</div>
-
-	
-		</div>
-
-		<span class="s1-txt3 txt-center">
-			&#x24B8; 2020 Designed by PeppyCodes
-		</span>
-		
-	</div>
-
-	<!-- Modal Login -->
-	<div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog" role="document" data-dismiss="modal">
-			<div class="modal-subscribe where1-parent bg0 bor2 size4 p-t-54 p-b-100 p-l-15 p-r-15">
-				<button class="btn-close-modal how-btn2 fs-26 where1 trans-04">
-					<i class="zmdi zmdi-close"></i>
-				</button>
+<section class="home-slider owl-carousel" id="slider">
 
 
-			</div>
+    <div class="slider-item" style="background-image: url('images/covid-standards.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row slider-text align-items-center justify-content-center text-center">
+                <div class="col-md-10 col-sm-12 ftco-animate">
+                    <h1 class="mb-3">We follow fssai standards for COVID-19</h1>
+                    <p><a href="files/Ashaa-B-Mitta.pdf" target="_blank"
+                          class="btn btn-primary btn-outline-white px-5 py-3">View Certificate</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-item" style="background-image: url('images/Rava%20Pongal.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row slider-text align-items-center justify-content-center text-center">
+                <div class="col-md-10 col-sm-12 ftco-animate">
+                    <h1 class="mb-3">Breakfast at your Doorstep Everyday</h1>
+                    <p><a href="https://wa.me/919008558558" class="btn btn-primary btn-outline-white px-5 py-3">Subscribe
+                        Now</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		</div>
-	</div>
+    <div class="slider-item" style="background-image: url('images/NOODLES%20BHEL.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row slider-text align-items-center justify-content-center text-center">
+                <div class="col-md-10 col-sm-12 ftco-animate">
+                    <h1 class="mb-3">Friday Only Corporate Special Discount 20%</h1>
+                    <h3 style="color: white; font-size:15px;">(min bill Rs.199)</h3>
+                    <p><a href="https://wa.me/919008558558" class="btn btn-primary btn-outline-white px-5 py-3">Grab
+                        Now</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END slider -->
 
-	
+<section class="ftco-section-2" id="about">
+    <div class="container d-flex">
+        <div class="section-2-blocks-wrapper row">
+            <div class="img col-sm-12 col-lg-6" style="background-image: url('images/about-3.jpg');">
+            </div>
+            <div class="text col-lg-6 ftco-animate">
+                <div class="text-inner align-self-start">
+                    <h3 class="heading">Here's our short intro to you...</h3>
+                    <p>Tummy Fuel, is an innovative and refreshing concept for all the foodies and health folks. Our
+                        food concept is tailor made, with effort put in, to boost healthy quotient in all our
+                        servings.</p>
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			// Set Endtime here
-			// Endtime must be > current time
-			endtimeYear: 2020,
-			endtimeMonth: 4,
-			endtimeDate: 30,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York", can be empty
-			// go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+                    <p>Mantra of Era - stay fit - workout - eat healthy - eat fruits n veggies. Does this mean a boring
+                        diet? Not at all! At Tummy fuel, treat yourself with yummy food packed with surprises of healthy
+                        ingredients and combinations</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Menu Start-->
+
+<section class="ftco-section parallax-img" id="menu" style="background-image: url('images/drink-1.jpg');"
+         data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+                <h2>Our Menu</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ftco-section bg-light">
+    <div class="container special-dish">
+        <div class="row d-flex no-gutters">
+            <div class="row">
 
 
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image" style="background-image: url(images/menu/PINEAPPLE-TIKKA.JPG);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">BARBEQUE</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image"
+                         style="background-image: url(images/menu/Chole-Chana-Roll.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">WHEAT ROLL</h3>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image" style="background-image: url(images/menu/Methi-Karabath.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">SOUTH FILLERS</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-first"
+                         style="background-image: url(images/menu/WATERMELON-CUCUMBER-CHURMURI.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">SNACKS</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-last"
+                         style="background-image: url(images/menu/PINEAPPLE-DATES-SHOTS.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">CRUNCHY BITES</h3>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-last" style="background-image: url(images/food-2.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">SALADS</h3>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-first" style="background-image: url(images/food-1.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">SANDWICHES</h3></div>
+
+                </div>
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-last" style="background-image: url(images/food-6.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">GOLGOPPA</h3>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-first"
+                         style="background-image: url(images/menu/Watermelon-Creamy-Slush2.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">BEVERAGES - COLD</h3>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-last"
+                         style="background-image: url(images/menu/COLD-PRESS-CHILLI-GUAVA.jpeg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">BEVERAGES - FRESH FRUIT JUICE</h3>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-first" style="background-image: url(images/menu/GOLDEN-BOOSTER.JPG);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">BEVERAGES - SHOT</h3>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-last" style="background-image: url(images/menu/MILK-TEA.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">BEVERAGES - HOT</h3>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 block-3 d-md-flex ftco-animate" style="padding: 5px;">
+                    <div class="image order-first" style="background-image: url(images/food-4.jpg);padding-top: 60%;">
+                        <h3 class="text-center bg-white" style="font-weight: bold;">DESSERT</h3>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Menu End-->
+
+<section class="ftco-section parallax-img" style="background-image: url('images/drink-7.jpg');"
+         data-stellar-background-ratio="0.5" id="services">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+                <h2>Our Services</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ftco-section bg-light">
+    <div class="<!--container--> special-dish">
+        <div class="row d-flex no-gutters">
+
+            <div class="col-lg-6">
+                <div class="block-3 d-md-flex ftco-animate">
+                    <div class="image order-first"
+                         style="background-image: url(images/order-online.jpg);"></div>
+                    <div class="text text-center order-last">
+                        <br>
+                        <h2 class="heading">Order Online</h2>
+                        <p>Stay home n enjoy our delicacies at your doorstep. We deliver via Zomato, Swiggy, Dunzo.</p>
+                        <br>
+                        <span class="price"><a
+                                href="https://www.zomato.com/bangalore/tummy-fuel-jayanagar">Order Now</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="block-3 d-md-flex ftco-animate">
+                    <div class="image order-first" style="background-image: url(images/QR-Code.png);"></div>
+                    <div class="text text-center order-last">
+                        <h2 class="heading">Dine In or Take away <br>(QR code)</h2>
+                        <p>We are happy to host you at our cafe and happy to pack home for you...your cravings with some
+                            quotient of healthy
+                            ingredients.</p>
+                        <span class="price">add on charges for packing or delivery</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="block-3 d-md-flex ftco-animate">
+                    <div class="image order-last"
+                         style="background-image: url(images/service-subscription.jpeg);"></div>
+                    <div class="text text-center order-first">
+                        <h2 class="heading">Subscriptions <br>(Breakfast / Lunch / Snacks / Dinner)</h2>
+                        <p>Are you single? Are your Parents alone? Do you not know to cook? Are you held up at work?
+                            We are here to help you. subscribe to your choice of meal plan with us.... Sit back, relax
+                            and relish ! Home style hygine simple food served by us.</p>
+                        <span class="price"><a href="https://wa.me/919008558558">Subscribe Now</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="block-3 d-md-flex ftco-animate">
+                    <div class="image order-last" style="background-image: url(images/service-corporate.jpeg);"></div>
+                    <div class="text text-center order-first">
+                        <h2 class="heading">Corporate Bulk</h2>
+                        <p>We know you care for your employees. Book our lip smacking snacks, or breakfast or lunch for
+                            perodic serving. We are referred and prefrerred by our Corporate Partners for our quality
+                            and hygine services.</p>
+                        <span class="price"><a href="https://wa.me/919008558558">Book Now</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="block-3 d-md-flex ftco-animate">
+                    <div class="image order-first" style="background-image: url(images/At-Event.jpg);"></div>
+                    <div class="text text-center order-last">
+                        <h2 class="heading">Catering & Live Counter</h2>
+                        <p>Bulk orders..? No worries, name the place, we will get the food delivered. Invite us to your
+                            location, we will serve you our quick bites...just live!</p> <br>
+                        <span class="price"><a href="https://wa.me/919008558558">Whatsapp Now</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="block-3 d-md-flex ftco-animate">
+                    <div class="image order-first"
+                         style="background-image: url(images/different-strokes-different-folks.jpg);"></div>
+                    <div class="text text-center order-last">
+                        <h2 class="heading">Different Strokes for Different Folks</h2>
+                        <p>Different strokes for Different Folks is an knowledge sharing Platform by cafe Tummy Fuel.
+                            Professionals from varied fields of interest host competitions, webinars and workshop both
+                            Online and Offline during weekends. Tummy Fuel creates the event platform and promotes in
+                            their social media and customer network, handles the back end of registrations and
+                            reservation of slots at cafe Premises or online.</p>
+                        <span class="price"><a href="https://wa.me/919008558558">Contact Now</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="block-3 d-md-flex ftco-animate">
+                    <div class="image order-last" style="background-image: url(images/service-event.jpg);"></div>
+                    <div class="text text-center order-first">
+                        <h2 class="heading">Host at cafe</h2>
+                        <p>Tummy Fuel hosts - Food Festival, annual Walkathon, Baby Shower, Corporate Gatering, Parties
+                            for Ladies Kitty, Retirement, New Year, Birthday. Prior booking is mandatory to block
+                            cafe.</p>
+                        <span class="price"><a href="https://wa.me/919008558558">Whatsapp Now</a></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-lg-6">
+                <div class="block-3 d-md-flex ftco-animate">
+                    <div class="image order-last" style="background-image: url(images/tuesday-santhae.jpg);"></div>
+                    <div class="text text-center order-first">
+                        <h2 class="heading">Tuesday Santhe</h2>
+                        <p>Every Tuesday, Tummy Fuel hosts a Santhe (a market) for various essential products. Tummy
+                            Fuel acts as an aggregator and a cumulative Sales Platform for natural n organic products
+                            from Farmers, home level businesses, woman entrepreneurs, small start up business. Prior
+                            announcement and Bookings taken only will be sold or delivered on Tuesday</p>
+                        <span class="price"><a href="https://wa.me/919008558558">Whatsapp Now</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="ftco-section" id="team">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <h2>Our Team</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 ftco-animate">
+                <div class="block-10">
+                    <div class="person-info">
+                        <span class="name">Ashaa Balasubramaniam</span>
+                        <span class="position">Founder</span>
+                    </div>
+                    <div class="chef-img" style="background-image: url(images/founder1.jpeg)"></div>
+                    <p>Ashaa Balasubramaniam is born and grew up in Bangalore, has great inclination towards the city’s
+                        climate, people, food and fusion culture. She is passionate about doing anything creative, while
+                        experimenting with food was always her interest. She, being a foodie, realized the limited
+                        availability of healthy options to satisfy one’s cravings, especially in the evenings after long
+                        hours of work or study. This thought provoked to cautiously design the menu and make Tummy Fuel
+                        a perfect fusion place for health & cravings. Yes, recipes at Tummy Fuel are her brainchild,
+                        Ashaa Balasubramaniam personally trains her staff, oversees the preparation and dining
+                        experience of every guest with a smile on her face.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 ftco-animate">
+                <div class="block-10">
+                    <div class="person-info">
+                        <span class="name">Sashidharran Deivasigamani</span>
+                        <span class="position">Co-Founder</span>
+                    </div>
+                    <div class="chef-img" style="background-image: url(images/founder2.jpeg)"></div>
+                    <p>Sashidharran Deivasigamani is a native of Coimbatore, with education in Apparel and further
+                        Masters in Business Management. An enthusiastic cyclist, voracious reader and healthy eating
+                        fanatic, he believed in “Fitness is 20% exercise and 80% Nutrition”. Further, Sashidharran
+                        allows himself to explore his interest in cooking and hand in hand ensure to create a most
+                        sustainable and growing entrepreneurship for both Partners. With his colossal work experience in
+                        both India / abroad, Sashidharran blends himself at his best to handle administration, Vendor
+                        Partners and financial analytics at Tummy Fuel.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="ftco-section testimony-section" id="testimonial">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <h2>Our Satisfied Customers says</h2>
+            </div>
+        </div>
+        <div class="row ftco-animate">
+            <div class="carousel owl-carousel ftco-owl">
+                <div class="item text-center">
+                    <div class="testimony-wrap p-4 pb-5">
+                        <!--                <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)" style="border: 1px solid red;"></div>-->
+                        <div class="text">
+                            <p class="star-rate"><span class="icon-star"></span><span class="icon-star"></span><span
+                                    class="icon-star"></span><span class="icon-star"></span><span
+                                    class="icon-star-o"></span></p>
+                            <p class="mb-5">When you enter this place you don’t expect much from the place due to its
+                                humble ambience but when you see the menu and slowly start ordering the stuff their
+                                taste will definitely impress you.</p>
+                            <p class="name">Neena Virdi</p>
+                            <span class="position">Bangalore</span>
+                            <!--https://www.zomato.com/review/vElpzz-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item text-center">
+                    <div class="testimony-wrap p-4 pb-5">
+                        <!--<div class="user-img mb-4" style="background-image: url(images/person_3.jpg)" style="border: 1px solid red;"></div>-->
+                        <div class="text">
+                            <p class="star-rate"><span class="icon-star"></span><span class="icon-star"></span><span
+                                    class="icon-star"></span><span class="icon-star"></span><span
+                                    class="icon-star"></span></p>
+                            <p class="mb-5">Wow this place is very unique and well maintained.
+                                Good ambience, but small place. Best place breakfast.
+                                Theme was totally different.</p>
+                            <p class="name">Kartik Bhat</p>
+                            <span class="position">Bangalore</span>
+                            <!--https://www.zomato.com/review/XKpPqe-->
+                        </div>
+                    </div>
+                </div>
+                <div class="item text-center">
+                    <div class="testimony-wrap p-4 pb-5">
+                        <!--<div class="user-img mb-4" style="background-image: url(images/person_1.jpg)" style="border: 1px solid red;"></div>-->
+                        <div class="text">
+                            <p class="star-rate"><span class="icon-star"></span><span class="icon-star"></span><span
+                                    class="icon-star"></span><span class="icon-star"></span><span
+                                    class="icon-star-half-full"></span></p>
+                            <p class="mb-5">Such a vibrant cute lil place in Jayanagar ( opp GNR Kalyana mantapa ) .. I
+                                love the lady here who was so friendly and warm .. and even the guy ... these two take
+                                ur orders ... and also prepare the food .. the lady was very polite and patient in
+                                explaining the menu... organic , environment friendly place </p>
+                            <p class="name">Shuba Ranganath</p>
+                            <span class="position">Bangalore</span>
+                            <!--https://www.zomato.com/review/ZPPQwDR-->
+                        </div>
+                    </div>
+                </div>
+                <div class="item text-center">
+                    <div class="testimony-wrap p-4 pb-5">
+                        <!--<div class="user-img mb-4" style="background-image: url(images/person_1.jpg)" style="border: 1px solid red;"></div>-->
+                        <div class="text">
+                            <p class="star-rate"><span class="icon-star"></span><span class="icon-star"></span><span
+                                    class="icon-star"></span><span class="icon-star"></span><span
+                                    class="icon-star-half-full"></span></p>
+                            <p class="mb-5">This place is awesome. It's very compact and the interior is done very
+                                beautiful. It's very cute and awesome place to hang out with frnds. The food u get to
+                                order here is very unique. I loved the grilled fruits and cheese golgappes. Pineapple
+                                dates was yummy and corn vegetable can be tried here.</p>
+                            <p class="name">Arpitha Gowda</p>
+                            <span class="position">Bangalore</span>
+                            <!--https://www.zomato.com/review/PAMBlB-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="instagram" id="gallery">
+    <div class="container-fluid">
+        <div class="row no-gutters justify-content-center pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <h2><span>Gallery</span></h2>
+            </div>
+        </div>
+
+        <div class="row no-gutters">
+
+
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/gallery/ROASTED%20CORN%20MINT%20SALAD.JPG" class="insta-img image-popup"
+                   style="background-image: url(images/gallery/ROASTED%20CORN%20MINT%20SALAD.JPG);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/gallery/Paneer-Roll.jpg" class="insta-img image-popup"
+                   style="background-image: url(images/gallery/Paneer-Roll.jpg);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/gallery/food-3.jpg" class="insta-img image-popup"
+                   style="background-image: url(images/gallery/food-3.jpg);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/gallery/Air%20Fried%20Potato%20Fingers%20Loaded.jpg" class="insta-img image-popup"
+                   style="background-image: url(images/gallery/Air%20Fried%20Potato%20Fingers%20Loaded.jpg);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/gallery/PINEAPPLE%20MASALA%20CHAT.jpg" class="insta-img image-popup"
+                   style="background-image: url(images/gallery/PINEAPPLE%20MASALA%20CHAT.jpg);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/service-party2.jpeg" class="insta-img image-popup"
+                   style="background-image: url(images/service-party2.jpeg);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/gallery/Combo%20Meal.jpg" class="insta-img image-popup"
+                   style="background-image: url(images/gallery/Combo%20Meal.jpg);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/gallery/gallery8.jpg" class="insta-img image-popup"
+                   style="background-image: url(images/gallery/gallery8.jpg);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/gallery/gallery9.jpg" class="insta-img image-popup"
+                   style="background-image: url(images/gallery/gallery9.jpg);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md ftco-animate">
+                <a href="images/gallery/STORE%20PIC.jpg" class="insta-img image-popup"
+                   style="background-image: url(images/gallery/STORE%20PIC.jpg);">
+                    <div class="icon d-flex justify-content-center">
+                        <span class="icon-image align-self-center"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="ftco-footer ftco-bg-dark ftco-section" id="contact">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-3">
+                    <!--<h2 class="ftco-heading-2">Tummy Fuel</h2>-->
+                    <img src="images/logo-text-man.png" alt="" height="130 rem">
+                    <p>Tummy Fuel, is an innovative and refreshing concept for all the foodies and health folks. Our
+                        food concept is tailor made, with effort put in, to boost healthy quotient in all our
+                        servings.</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+
+                        <li class="ftco-animate"><a href="https://www.zomato.com/bangalore/tummy-fuel-jayanagar"
+                                                    target="_blank"><img src="images/icon-zomato.png" alt=""
+                                                                         width="47px"></a></li>
+                        <li class="ftco-animate"><a href="https://www.swiggy.com/"><img
+                                src="images/icon-swiggy.png" alt=""
+                                width="47px"></a></li>
+                        <li class="ftco-animate"><a href="https://www.dunzo.com/"><img
+                                src="images/icon-dunzo.png" alt=""
+                                width="47px"></a></li>
+
+                        <li class="ftco-animate"><a href="https://www.facebook.com/tummyfuel/" target="_blank"><img
+                                src="images/icon-facebook.png" alt=""
+                                width="47px"></a></li>
+                        <li class="ftco-animate"><a href="https://instagram.com/tummy_fuel?igshid=e10wxvqn66qb"><img
+                                src="images/icon-instagram.png" alt=""
+                                width="47px"></a></li>
+                        <li class="ftco-animate"><a href="https://g.page/Tummyfuel?we"><img
+                                src="images/icon-google-business.png" alt=""
+                                width="47px"></a></li>
+                        <li class="ftco-animate"><a href="https://www.linkedin.com/in/tummy-fuel-6b0263168"><img
+                                src="images/icon-linkedin.png" alt=""
+                                width="47px"></a></li>
+                        <li class="ftco-animate"><a href="https://wa.me/919008558558"><img
+                                src="images/icon-whatsapp.png" alt=""
+                                width="47px"></a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-2">
+                    <h2 class="ftco-heading-2">Opening Hours</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Monday: <span>09:00 - 20:00</span></a></li>
+                        <li><a href="#" class="py-2 d-block">Tuesday: <span>09:00 - 20:00</span></a></li>
+                        <li><a href="#" class="py-2 d-block">Wednesday: <span>09:00 - 20:00</span></a></li>
+                        <li><a href="#" class="py-2 d-block">Thursday: <span>09:00 - 20:00</span></a></li>
+                        <li><a href="#" class="py-2 d-block">Friday: <span>09:00 - 20:00</span></a></li>
+                        <li><a href="#" class="py-2 d-block">Saturday: <span>09:00 - 20:00</span></a></li>
+                        <li><a href="#" class="py-2 d-block">Sunday: <span>09:00 - 20:00</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-3">
+                    <h2 class="ftco-heading-2">Contact Information</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="https://goo.gl/maps/fCN76acptrjvKg7KA" class="py-2 d-block">No.1478/1, Shop No.4,
+                            18th Main, 40th Cross,</a></li>
+                        <li><a href="https://goo.gl/maps/fCN76acptrjvKg7KA" class="py-2 d-block">Jayanagar 4th T Block,
+                            Kottapalya,</a></li>
+                        <li><a href="https://goo.gl/maps/fCN76acptrjvKg7KA" class="py-2 d-block"> Bengaluru,</a></li>
+                        <li><a href="https://goo.gl/maps/fCN76acptrjvKg7KA" class="py-2 d-block">Karnataka 560041,
+                            India</a></li>
+                        <li><a href="https://wa.me/919008558558">Phone: +91 9008558558</a></li>
+                        <li><a href="mailto: write2tummyfuel@gmail.com">Email: write2tummyfuel@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Maps</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3888.8104689954184!2d77.5895004272461!3d12.919899940490723!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8d941ff3ed268834!2sTummy%20Fuel!5e0!3m2!1sen!2sin!4v1590228694940!5m2!1sen!2sin"
+                    <!--width="600"--> height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                    aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <p><!-- Link back to PeppyCodes can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | Developed by <a href="http://peppycodes.com" target="_blank">PeppyCodes</a>
+                    <!-- Link back to PeppyCodes can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00"/>
+    </svg>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.timepicker.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+
+<script src="js/data.js"></script>
 
 </body>
 </html>
